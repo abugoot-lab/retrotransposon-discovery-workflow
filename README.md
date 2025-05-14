@@ -83,7 +83,7 @@ Please ensure these tools are installed and accessible in your environment. Spec
 
 If you use this pipeline or parts of it in your research, please cite our paper:
 
-Fell, C.W., Villier, L., Lim, J. *et al*. Reprogramming site-specific retrotransposon activity to new DNA sites. *Nature* (2025).
+Fell, C.W., Villiger, L., Lim, J. *et al*. Reprogramming site-specific retrotransposon activity to new DNA sites. *Nature* (2025).
 (Paper Link: [https://www.nature.com/articles/s41586-025-08877-4](https://www.nature.com/articles/s41586-025-08877-4))
 
 ## License
