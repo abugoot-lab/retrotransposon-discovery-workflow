@@ -46,6 +46,15 @@ The core pipeline consists of the following major stages. For detailed commands 
 8.  **Construction of Representative Set of ORFs:**
     * Clustering to identify a representative set of ORFs using `mmseqs easy-cluster`.
 
+## Output Data Files
+
+As supplementary data to the pipeline and publication, we provide two key output files:
+
+* **`orf_list_supplementary_table_full_set.csv.zip`**: This file contains the complete set of 35,248 ORFs identified and processed through the initial stages of the pipeline, prior to the final representative clustering. It is provided as a `.zip` archive due to its large size.
+* **`orf_list_supplementary_table_clustered_unique.csv`**: This file contains the representative set of 8,248 unique ORFs after the clustering step (as described in "Construction of Representative Set of ORFs"). This is often referred to as the "reps" file and may be particularly useful for downstream analyses requiring a non-redundant set.
+
+These files are located in the `data/` subdirectory within this repository.
+
 ## Usage
 
 The detailed commands, including example parameters and tool versions (where applicable), are provided in the `nLTR_RT_search_pipeline.md` file. Users should adapt paths to databases, input files, and output directories according to their own system and data.
