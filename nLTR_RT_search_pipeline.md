@@ -13,6 +13,7 @@ orfm -m 1500 -c <codon_table> -s <FASTA>
 ```
 hmmbuild -n <name> <HMM> <MSA>
 ```
+*Note: Relevant HMM and MSA files are in the `pipeline_assets/` directory. 
 
 ## RVT and RLE domain search
 
