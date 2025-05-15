@@ -18,6 +18,8 @@ The core pipeline consists of the following major stages. For detailed commands 
 
 2.  **RT and RLE Model Construction:**
     * Building Hidden Markov Models (HMMs) for Reverse Transcriptase (RVT) and Endonuclease (RLE) domains using `hmmbuild`.
+  
+      Note: Relevant HMM and MSA files are in the `pipeline_assets/` directory. 
 
 3.  **RVT and RLE Domain Search:**
     * Searching for RVT and RLE domains within the predicted ORF translations using `hmmsearch`.
