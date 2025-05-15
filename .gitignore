@@ -1,0 +1,3 @@
+.DS_Store
+pipeline_assets/.DS_Store # If .DS_Store appears in subfolders
+data/.DS_Store
